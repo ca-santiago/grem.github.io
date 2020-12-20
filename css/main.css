@@ -1,0 +1,86 @@
+* {
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(34, 34, 34, 1);
+  color: #f1f1f1;
+  font-family: Montserrat;
+}
+
+/* Container Styles */
+
+.section-cont {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-row {
+  width: 100%;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.network-row {
+  width: 30%;
+}
+
+/* Section containers */
+.main-header {
+  height: 100px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.main-nav {
+  text-decoration: none;
+  margin-right: 80px;
+  margin-top: 10px;
+}
+
+.main-nav li {
+  list-style: none;
+  margin-left: 60px;
+}
+
+.main-nav li a {
+  color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Text containers */
+
+.GremTitle {
+  font-family: "Open Sans";
+  font-size: 32px;
+  margin-left: 20px;
+}
+
+.text-holder {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.social-container {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 110px;
+  height: 110px;
+  background-color: #000;
+}

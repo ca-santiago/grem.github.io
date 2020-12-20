@@ -1,0 +1,11 @@
+.cont-h {
+    flex-direction: row;
+}
+
+.cont-v {
+    flex-direction: column;
+}
+
+.row {
+    padding: 10px;
+}
